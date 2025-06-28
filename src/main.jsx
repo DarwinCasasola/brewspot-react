@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/theme.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { FavoritesProvider } from "./context/FavoritesProvider";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-      <Router>
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/theme.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <FavoritesProvider>
         <App />
-      </Router>
-    </React.StrictMode>
-  );
+      </FavoritesProvider>
+    </BrowserRouter>
+  </React.StrictMode>
+);
