@@ -10,7 +10,7 @@ function Home() {
         src={coffeeimg}
         alt="BrewSpot Coffee Vibes"
         className="img-fluid rounded mx-auto d-block"
-        style={{ maxWidth: "100%", height: "auto" }}
+        style={{ maxWidth: "75%", height: "auto" }}
       />
       <br />
       <Link to="/shops" className="btn btn-primary">Explore Coffee Shops</Link>
