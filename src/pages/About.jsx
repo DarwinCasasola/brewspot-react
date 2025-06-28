@@ -27,7 +27,7 @@ function About() {
         <hr />
   
         <p>
-          Built by Darwin Casasola — yes, I will definitely take donations for more coffee! <em>(insert Venmo here)</em>
+          Built with early mornings coding sessions, a lot of coffee, some late nights, and React.(please send coffee donations to keep the caffeine flowing!)
         </p>
   
         <div className="d-flex justify-content-center gap-3 mt-3">
