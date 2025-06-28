@@ -27,7 +27,7 @@ function About() {
         <hr />
   
         <p>
-          👋 Built by Darwin Casasola — yes, I will definitely take donations for more coffee! <em>(insert Venmo here)</em>
+          Built by Darwin Casasola — yes, I will definitely take donations for more coffee! <em>(insert Venmo here)</em>
         </p>
   
         <div className="d-flex justify-content-center gap-3 mt-3">
